@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_academic_background_awards_histories",
+  "info": {
+    "displayName": "awardsHistory",
+    "icon": "gift"
+  },
+  "options": {},
+  "attributes": {
+    "officeName": {
+      "type": "text"
+    },
+    "extraQualification": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "nameOfManPadawi": {
+      "type": "string"
+    },
+    "receivedDate": {
+      "type": "date"
+    },
+    "trainingOrStudiesStartDate": {
+      "type": "date"
+    },
+    "trainingOrStudiesEndDate": {
+      "type": "date"
+    },
+    "trainingOrStudiesDuration": {
+      "type": "string"
+    },
+    "symbolNumber": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  input,
+  button {
+    @apply block border-2;
+  }
+}

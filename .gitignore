@@ -1,0 +1,5 @@
+backend/node_modules
+bp_backend/node_modules
+bpkmch_frontend/node_modules
+frontend/node_modules
+strapi-backend/node_modules

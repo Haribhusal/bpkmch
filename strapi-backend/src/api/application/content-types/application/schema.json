@@ -1,0 +1,171 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applications",
+  "info": {
+    "singularName": "application",
+    "pluralName": "applications",
+    "displayName": "Application",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "applications"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "academicBackground": {
+      "type": "component",
+      "repeatable": true,
+      "component": "academic-background.academic-background"
+    },
+    "previousWorkExperience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "academic-background.work-experience"
+    },
+    "oldWorkExperience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "academic-background.previous-work-details"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "academic-background.awards-history"
+    },
+    "fullNameInNepali": {
+      "type": "string"
+    },
+    "Zone": {
+      "type": "string"
+    },
+    "District": {
+      "type": "string"
+    },
+    "GaupalikaOrNagarpalika": {
+      "type": "string"
+    },
+    "wardNumber": {
+      "type": "integer"
+    },
+    "villageOrToleName": {
+      "type": "string"
+    },
+    "blockNumber": {
+      "type": "integer"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "TempZone": {
+      "type": "string"
+    },
+    "TempDistrict": {
+      "type": "string"
+    },
+    "TempGaupalikaOrNagarpalika": {
+      "type": "string"
+    },
+    "TempWardNumber": {
+      "type": "integer"
+    },
+    "TempVillageOrToleName": {
+      "type": "string"
+    },
+    "TempBlockNumber": {
+      "type": "integer"
+    },
+    "TempPhoneNumber": {
+      "type": "string"
+    },
+    "DOBInBS": {
+      "type": "date"
+    },
+    "DOBInAD": {
+      "type": "date"
+    },
+    "CitizenShipNumber": {
+      "type": "string"
+    },
+    "CitizenshipIssueOfficeName": {
+      "type": "string"
+    },
+    "citizenshipIssuedDate": {
+      "type": "date"
+    },
+    "detailIfMigratedFrom": {
+      "type": "text"
+    },
+    "countryIfBornedForeign": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Others"
+      ]
+    },
+    "Barna": {
+      "type": "string"
+    },
+    "Religion": {
+      "type": "string"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "Appearance": {
+      "type": "blocks"
+    },
+    "Married": {
+      "type": "enumeration",
+      "enum": [
+        "Married",
+        "Unmarried"
+      ]
+    },
+    "marriedWithName": {
+      "type": "string"
+    },
+    "FatherName": {
+      "type": "string"
+    },
+    "FatherAddress": {
+      "type": "string"
+    },
+    "grandFatherName": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string"
+    },
+    "applyDate": {
+      "type": "date"
+    },
+    "filesAttached": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "applicantPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

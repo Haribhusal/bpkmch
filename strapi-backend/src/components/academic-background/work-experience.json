@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_academic_background_work_experiences",
+  "info": {
+    "displayName": "workExperience",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "SN": {
+      "type": "integer"
+    },
+    "officeName": {
+      "type": "string"
+    },
+    "fromDate": {
+      "type": "date"
+    },
+    "toDate": {
+      "type": "date"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "serviceType": {
+      "type": "enumeration",
+      "enum": [
+        "Permanent",
+        "Temporary",
+        "Karar"
+      ]
+    },
+    "level": {
+      "type": "string"
+    },
+    "groupSubGroup": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "responsibility": {
+      "type": "blocks"
+    },
+    "reasonOfResign": {
+      "type": "blocks"
+    },
+    "symbolNumber": {
+      "type": "string"
+    }
+  }
+}

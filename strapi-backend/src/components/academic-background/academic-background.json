@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_academic_background_academic_backgrounds",
+  "info": {
+    "displayName": "academicBackground",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "SN": {
+      "type": "integer"
+    },
+    "schoolOrCollegeNameAndAddress": {
+      "type": "text"
+    },
+    "fromDate": {
+      "type": "date"
+    },
+    "toDate": {
+      "type": "date"
+    },
+    "passedExam": {
+      "type": "string"
+    },
+    "resultDateAndTime": {
+      "type": "datetime"
+    },
+    "level": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "examByNameAndAddress": {
+      "type": "text"
+    },
+    "passedWithPercentage": {
+      "type": "decimal",
+      "max": 100,
+      "min": 0
+    },
+    "totalMarksObtained": {
+      "type": "integer"
+    },
+    "symbolNumber": {
+      "type": "string"
+    }
+  }
+}

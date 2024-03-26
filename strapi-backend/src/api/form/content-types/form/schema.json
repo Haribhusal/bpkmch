@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fee": {
+      "type": "integer",
+      "required": true
+    },
+    "registrationNumber": {
+      "type": "string"
+    },
+    "registeredDate": {
+      "type": "date"
+    },
+    "rollNumber": {
+      "type": "string"
+    },
+    "examDate": {
+      "type": "date"
+    },
+    "examCenter": {
+      "type": "string"
+    },
+    "adsNumber": {
+      "type": "string"
+    },
+    "examType": {
+      "type": "enumeration",
+      "enum": [
+        "Khulla",
+        "Aa.Pra."
+      ]
+    },
+    "designation": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    },
+    "subGroup": {
+      "type": "string"
+    },
+    "stage": {
+      "type": "string"
+    },
+    "reservedOrOpen": {
+      "type": "enumeration",
+      "enum": [
+        "Khulla",
+        "Mahila",
+        "Aadibasi/Janajati",
+        "Madhesi",
+        "Dalit",
+        "Apanga",
+        "Pichhdiyeko Chhetra"
+      ]
+    }
+  }
+}

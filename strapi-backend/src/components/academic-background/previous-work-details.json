@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_academic_background_previous_work_details",
+  "info": {
+    "displayName": "previousWorkDetails",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "OrganizationName": {
+      "type": "string"
+    },
+    "DesignationWithTechnicalOrNonTechnical": {
+      "type": "text"
+    },
+    "sewaSamuhaUpaSamuhaShreniOrTaha": {
+      "type": "string"
+    },
+    "Taha": {
+      "type": "enumeration",
+      "enum": [
+        "Adhikrit",
+        "Sahayak"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Permanent",
+        "Tempoary",
+        "Karar"
+      ]
+    },
+    "niyuktiSaruwaWaBaduwaDate": {
+      "type": "date"
+    },
+    "workedTillDate": {
+      "type": "date"
+    },
+    "WillWorkTillDate": {
+      "type": "date"
+    },
+    "Responsibility": {
+      "type": "blocks"
+    }
+  }
+}
